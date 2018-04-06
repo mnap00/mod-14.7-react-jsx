@@ -3,7 +3,7 @@ var contacts = [
         id: 1,
         firstName: 'John',
         lastName: 'Newman',
-        email: 'john.newman#example.com'
+        email: 'john.newman@example.com'
     },
     {
         id: 2,
