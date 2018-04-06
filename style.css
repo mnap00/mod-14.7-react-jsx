@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3498db;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+    margin: 8px 4%;
+    padding: 0 8px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input {
+    align-self: flex-start;
+    border: 0;
+    border-bottom: 1px solid #bdc3c7;
+    height: 32px;
+    margin: 8px 4%;
+    padding: 0 8px;
+    width: 42%;
+}
+
+input:last-of-type {
+    width: 68%;
+}
+
+.app {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 16px;
+}
+
+.contactForm,
+.contactsList {
+    align-content: space-around;
+    border: 1px solid #95a5a5;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #95a5a5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 16px 0;
+}
+
+.contactsList {
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactItem {
+    align-items: center;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 4px 0;
+    padding: 0 4px;
+    width: 96%;
+}
+
+.contactImage {
+    height: 64px;
+    margin: 4px;
+    width: 64px;
+}
+
+.contactLabel {
+    padding: 0 4px;
+}
+
+.contactEmail {
+    color: #3498db;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+.contactEmail:hover {
+    color: #2980b9;
+}
