@@ -4,7 +4,8 @@
   "description": "React Contacts App",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "browser-sync start --server --files '*.css' 'css/*.css' '*.html' '*.js' 'components/*.js'"
   },
   "keywords": [
     "react",
@@ -12,5 +13,8 @@
     "form"
   ],
   "author": "mnap00",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
 }
